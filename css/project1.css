@@ -1,0 +1,147 @@
+body{padding-top: 61px;}
+
+/* Start Navbar */
+nav{background-color: rgba(33,29,29,.7); border-bottom: #2b7fe3 5px solid; opacity: .83}
+.navbar-brand{
+    background: -webkit-linear-gradient(#f2ebea, #f2ebea);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bolder;
+    letter-spacing: 5px
+}
+.navbar-brand:hover{
+    background: -webkit-linear-gradient(#f2ebea, #036ae4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.navbar-expand-sm .navbar-nav .nav-link {color: #c2c1d6e0;}
+.navbar-expand-sm .navbar-nav .nav-link:hover {
+    color: white;
+    background-color: #1246aa;
+}
+/* End Navbar */
+/*************************************************************************************************/
+/* Start Header */
+header{color: white}
+header .image{
+    background: url(../img/MOTP.jpg) fixed center center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 585px
+}
+.dark-overlay{background-color: rgba(0,0,0,.8); width: 100%; min-height:585px}
+header .row .down{padding-top:100px}
+header .svg-inline--fa{font-size: 35px; margin-right: 10px ;color: #2b7fe3}
+header .card-form{opacity: .7}
+header .btn-block:hover{outline: 2px solid white}
+/* End Header */
+/*************************************************************************************************/
+/* Start Explore */
+#explore{
+    background: rgb(12,11,25);
+    background: linear-gradient(90deg, rgba(12,11,25,1) 35%, rgba(10,29,119,1) 100%);
+    min-height: 300px;
+}
+#explore h2{padding-bottom: 25px;color: #9498a1;}
+#explore p{padding-bottom: 10px}
+#explore a{cursor: pointer}
+#explore .explore-content{padding-top:40px;padding-bottom: 40px}
+.explore-details{min-height: 400px;}
+.explore-details .row{padding-top:40px;}
+.explore-details img{border-radius: 50%;padding-bottom: 30px;}
+.explore-details .svg-inline--fa{color: black;font-size: 35px}
+/* End Explore */
+/*************************************************************************************************/
+/*Start create*/
+#create{
+    min-height: 300px;
+    background: url(../img/linkedin_creativity.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white
+}
+#create .dark-overlay{background-color: rgba(0,0,0,.9); width: 100%; min-height:300px}
+#create h2{color: #3a3adf;padding-bottom: 20px}
+#create p{padding-bottom: 20px}
+#create .create-content{padding-top:40px;padding-bottom: 40px}
+.carousel img{max-height: 450px;width: 100%}
+.carousel-caption{
+    background-color: rgba(3,3,3,.6);letter-spacing: 2px;position: absolute;bottom: 50px;
+}
+.carousel-indicators li {background-color: gray;}
+.carousel-indicators li.active {background-color: black;}
+/*End create*/
+/*************************************************************************************************/
+/*Start brands*/
+.brands{min-height: 100px;}
+.brands a{color: #102031;}
+.brands a:hover{color: gray;}
+.brands i{padding-bottom: 20px;}
+/*End brands*/
+/*************************************************************************************************/
+/*Start Share*/
+#share{
+    background: rgb(12,11,25);
+    background: linear-gradient(90deg, rgba(12,11,25,1) 35%, rgba(10,29,119,1) 100%);
+    min-height: 300px;}
+#share .share-content{padding-top: 60px;padding-bottom: 60px;}
+#share h2{padding-bottom: 10px}
+#share p{padding-bottom: 20px}
+/*End Share*/
+/*************************************************************************************************/
+/*Start Makers*/
+.makers{min-height: 620px;}
+.makers h2{padding-top: 30px;padding-bottom: 30px;}
+.makers .Character{padding-bottom: 20px;padding-top: 10px}
+.makers .Character h4{padding-top: 10px;padding-bottom: 10px;color: #636570}
+.makers ul{list-style: none;padding-left: 0px}
+.makers ul li{display: inline;cursor: pointer;padding-left: 5px}
+.makers ul li i{font-size: 30px; padding: 0 5px;}
+.makers ul li i:hover{color: gray}
+/*End Makers*/
+/*************************************************************************************************/
+/*Start Courses*/
+.courses{min-height: 500px;color: white;background-color: whitesmoke}
+.courses h2{padding-top: 20px;padding-bottom: 50px}
+.courses .course-box{
+    height: 400px;
+    border-radius: 20px;
+    background: rgb(12,11,25);
+    background: linear-gradient(180deg, rgba(12,11,25,1) 43%, rgba(97,98,105,1) 100%);
+}
+.courses .course-box .course-content{padding-top: 30px;padding-bottom: 30px}
+.courses .course-price:hover{
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+    border: 5px solid white
+}
+.courses .course-price{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin:auto;
+    font: 50px bolder;
+    line-height: 100px;
+    -webkit-transition-duration: .8s;
+    -moz-transition-duration: .8s;
+    -o-transition-duration: .8s;
+    transition-duration: .8s;
+}
+.courses .course-box ul{line-height: 40px;font-size: 20px;font-weight: 700;}
+/*End Courses*/
+/*************************************************************************************************/
+/*Start Foot*/
+.foot{background-color: #121321;min-height: 300px;color: white}
+.foot .container{padding-bottom: 30px;padding-top: 30px}
+.foot ul:first-of-type{line-height: 45px;}
+.foot ul:first-of-type li{font-size: 20px;color: gray}
+.foot ul:last-of-type li{display: inline;font-size: 30px;color: grey;cursor: pointer}
+.foot ul:last-of-type li:hover{color: white}
+.foot .form-body input{background:rgba(82,78,78,0.7);border:none;color: white}
+/*End Foot*/
